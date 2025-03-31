@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+</head>
+<body>
+
+	<section>
+		<div id="login">
+
+			<div class="container">
+				<div id="login-row"
+					class="row justify-content-center align-items-center">
+					<div id="login-column" class="col-md-6">
+					<div id="login-box" 
+     style="height: 260px; 
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                        url('../image/picgame1'); 
+            background-size: cover; 
+            background-position: center;" 
+     class="col-md-12">
+<!--  message box -->
+	<div th:if="${session.message}" class="container">
+		<div
+			class="alert alert-denger text-center" role="alert">
+			<span th:text="${session.message}"></span>
+		</div>
+
+		<th:block th:text="${@sessionHelper.removeMessageFromSession()}"></th:block>
+	</div>
+
+		
+
+
+
+							<!-- email form -->
+							<h3 style="color: black" class="text-center mt-3">your
+								registered Email</h3>
+							<form  method="post" th:action="@{/send-OTP}">
+
+
+								<div class="form-group  mt-3 ms-2 me-2">
+
+									<input name="email" type="email" placeholder="Enter here"
+										class="form-control" required="required" />
+
+
+								</div>
+			<div class="container text-center mt-5">
+
+									<!-- HTML !-->
+									
+<button class="btnotp">send</button>
+
+								</div>
+
+
+
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+</body>
+</html>

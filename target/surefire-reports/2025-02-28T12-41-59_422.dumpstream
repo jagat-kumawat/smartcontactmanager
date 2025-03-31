@@ -1,0 +1,5 @@
+# Created at 2025-02-28T12:41:59.966
+Boot Manifest-JAR contains absolute paths in classpath 'F:\sts35\spring38\smartcontactmanager\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
