@@ -1,0 +1,15 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Tell GitHub Linguist how to count languages properly
+*.java linguist-language=Java
+*.html linguist-language=HTML
+/templates/** linguist-language=HTML
+/src/main/java/** linguist-language=Java
+
+# Optional: Ignore static files from language stats
+static/** linguist-vendored
+
+# Add optional styling languages if you want to show them properly
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript

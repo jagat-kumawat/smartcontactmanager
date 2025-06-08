@@ -1,0 +1,444 @@
+body{
+		background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url(../image/forgot);
+}
+.bg-primary{
+	background: #009688!important;
+	
+	
+
+}
+
+.img{
+	width:100%;
+	height:90vh;
+	background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../image/picchrome);
+	background-size:cover;
+	 
+	
+	color:white;
+}
+.imgcolor{
+	color: #e3e3e3!important;
+}
+	.imga{
+	width:100%;
+	height:95vh;
+	
+		background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../image/homeimage);
+			background-size:cover;
+	}
+
+.btn{
+	background:black;
+}
+.my-card{
+	padding:10px;	
+	background: linear-gradient(rgba(0,0,0,.6.5),rgba(0,0,0,.6.5)),url(../image/homeimage);
+	
+	
+	
+	}
+.container{
+		
+	color:white;
+}
+
+.button-login{
+	display:flex;
+	justify-content:center;
+	
+	
+}
+#login {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url("../image/homeimage"); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+}
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 420px;
+    border: 1px solid #9C9C9C;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url("../image/picgame1"); /* Change the path as needed */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+
+/* side bar style class 52 */
+@media only screen and (max-width:600px){
+	.sidebar{
+	display:none;
+	width: 60% !important;
+	background:white;
+	height: 100vh;
+	position:fixed;
+	padding-top:20px;
+	
+	}
+	.content{
+	margin-left:0%!important;
+	}
+}
+.sidebar{
+	width:18%;
+	background: #d5ebed;
+	height:100%;
+	position: fixed;
+	padding-top:40px;
+	z-index:99999999999999999;
+}
+.sidebar a{
+
+	display: block;
+	width: 100%;
+	padding:10px 25px;
+	text-decoration: none;
+	color: gray;
+}
+
+.sidebar a:hover{
+	background:white;
+}
+.sidebar .divider{
+	height: .5px;
+	width:100%;
+	background:#e2e2e2;
+	margin-top: 20px;
+}
+.content{
+	
+	margin-left:20%;
+}
+.sidebar .crossBtn{
+	position:absolute;
+	top: 0;
+	right:35px;
+	font-size:36px;
+	cursor: pointer;
+}
+.card-body{
+	background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../image/forgotemail);
+	background-size:cover;
+}
+
+.contactsubmit{
+	background: #82b9f5;
+	color:btn btn-outline-primary;
+}
+.card-show{
+	 background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+                url("../image/forgotemail"); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+}
+.img-sizefix{
+	width: 25px;
+	height:25px;
+	object-fit:cover;
+	border-radius:35%;
+ border: 1px solid #555;
+	
+	
+}
+.card-body1{
+	background: white;
+	
+}
+.img-sizeupdate{
+	
+	width: 50px;
+	height:50px;
+	object-fit:cover;
+	border-radius:35%;
+	
+	
+}
+.img-sizefix1{
+	width: 20px;
+	height:20px;
+
+	
+
+}
+/*  search css   */
+.search-container{
+	
+	position:relative;
+	
+	
+}
+.search-result{
+	
+	
+	position:absolute;
+	background:white;
+	width:100%;
+	padding:10px;
+	border:1px solid gray;
+	display:none;
+}
+.active{
+	background: #009688!important;
+	color : white!important;
+}
+
+
+
+
+.button-85 {
+  padding: 0.4em 1.5em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 8px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 300%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+
+
+
+
+/* CSS */
+button.button-2 {
+  touch-action: manipulation;
+  -webkit-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button.button-2:focus {
+  outline-style: solid;
+  outline-color: transparent;
+}
+
+button.button-2 {
+  touch-action: manipulation;
+  margin: 2px;
+  cursor: pointer;
+}
+
+button.button-2 {
+  touch-action: manipulation;
+  border: 1px solid #0360df;
+  border-radius: 50px;
+  padding: 9px 16px;
+  background-color: #0360df;
+  background-image: radial-gradient(75% 50% at 50% 0%, #f4feff 12%, transparent), radial-gradient(75% 50% at 50% 85%, #8de3fc, transparent);
+  box-shadow: inset 0 0 2px 1px rgba(255, 255, 255, 0.2), 0 1px 4px 1px rgba(17, 110, 231, 0.2), 0 1px 4px 1px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-shadow: 0 1px 1px #116ee7;
+  transition-property: border-color, transform, background-color;
+  transition-duration: 0.2s;
+}
+
+button.button-2:hover {
+  transform: scale(1.04);
+}
+
+button.button-2:active {
+  border-color: #0048d5;
+  transform: scale(0.96);
+  background-color: #0048d5;
+}
+
+
+/* CSS */
+.button-19 {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.13)), radial-gradient(90% 7% at 50% 8%, rgba(255, 255, 255, 0.47) 25%, rgba(255, 255, 255, 0) 50%), #0053d0;
+  border: 0;
+  border-radius: 0.350em;
+  box-shadow: 0.2em 0.2em 0.5em rgba(0, 0, 0, 0.47), 0 -0.1em 0 0.1em rgba(0, 0, 0, 0.27), 0 0.1em 0 0.1em rgba(255, 255, 255, 0.27), -0.2em 0 0.2em #003f9d inset, 0 0.2em 0.2em rgba(255, 255, 255, 0.27) inset, 0.2em 0 0.2em rgba(255, 255, 255, 0.27) inset, 0 -0.2em 0.2em #003f9d inset;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0.70em 1em;
+  text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.47);
+  transition-property: box-shadow;
+  -webkit-tap-highlight-color: transparent;
+}
+.button-19, .button-19 span {
+  display: block;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+.button-19:focus, .button-19 span:focus {
+  outline: none;
+}
+.button-19 span {
+  transition-property: transform;
+  will-change: transform;
+}
+.button-19:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.47), 0 -0.1em 0 0.1em rgba(0, 0, 0, 0.27), 0 0.1em 0 0.1em rgba(255, 255, 255, 0.27), -0.2em 0 0.2em #002a6a inset, 0 0.2em 0.2em rgba(0, 0, 0, 0.27) inset, 0.2em 0 0.2em rgba(0, 0, 0, 0.27) inset, 0 -0.2em 0.2em #002a6a inset;
+}
+.button-19:active span {
+  transform: scale(0.95);
+}
+.button-19:focus {
+  color: #9dc4ff;
+  text-shadow: 0 0 0.2em rgba(157, 196, 255, 0.47);
+}
+/* From Uiverse.io by cssbuttons-io */ 
+.btnotp {
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.3em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+}
+
+.btnotp:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnotp:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnotp::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.4s;
+}
+
+.btnotp::after {
+  background-color: #fff;
+}
+
+.btnotp:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+.fade-out {
+    animation: fadeOut 5s ease-out forwards;
+}
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+.fade-out {
+    animation: fadeOut 5s ease-out forwards;
+}
+
+.fade-out {
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+}
+
+
+
+
+
+
